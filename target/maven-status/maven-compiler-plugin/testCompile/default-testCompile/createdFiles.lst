@@ -1,0 +1,3 @@
+com\restful\booker\testbase\TestBase.class
+com\restful\booker\bookinginfo\CreateBookingDataDrivenTest.class
+com\restful\booker\bookinginfo\BookingCURDTestWithSteps.class

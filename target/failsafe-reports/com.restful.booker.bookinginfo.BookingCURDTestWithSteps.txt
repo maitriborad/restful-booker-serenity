@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.restful.booker.bookinginfo.BookingCURDTestWithSteps
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.519 sec - in com.restful.booker.bookinginfo.BookingCURDTestWithSteps

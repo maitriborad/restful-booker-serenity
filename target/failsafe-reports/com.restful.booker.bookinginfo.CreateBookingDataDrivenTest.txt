@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.restful.booker.bookinginfo.CreateBookingDataDrivenTest
+-------------------------------------------------------------------------------
+Tests run: 100, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.812 sec - in com.restful.booker.bookinginfo.CreateBookingDataDrivenTest

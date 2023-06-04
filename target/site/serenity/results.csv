@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Booking CURD test with steps","This method will create a Token","SUCCESS","2023-06-04T19:53:23.084Z[UTC]","0.0","17.75"
+"Booking CURD test with steps","This method will create and verify a booking","SUCCESS","2023-06-04T19:53:42.198Z[UTC]","0.0","1.28"
+"Booking CURD test with steps","This method will get booking with Id","SUCCESS","2023-06-04T19:53:43.483Z[UTC]","0.0","0.52"
+"Booking CURD test with steps","This method will updated a booking with ID","SUCCESS","2023-06-04T19:53:44.007Z[UTC]","0.0","0.95"
+"Booking CURD test with steps","This method will delete a booking with ID","SUCCESS","2023-06-04T19:53:44.955Z[UTC]","0.0","0.92"
+"Create booking data driven test","Data driven test for creating multiple bookings","SUCCESS","2023-06-04T19:53:55.634Z[UTC]","0.0","62.87"

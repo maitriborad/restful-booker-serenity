@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="10.795" tests="100" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2022.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\milan\IdeaProjects\restful-booker-serenity"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\milan\IdeaProjects\restful-booker-serenity"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\milan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Apache\apache-maven-3.9.1\bin;C:\Program Files\nodejs\;C:\Users\milan\AppData\Local\Microsoft\WindowsApps;C:\Users\milan\AppData\Roaming\npm;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\milan"/>
+    <property name="user.timezone" value="UTC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Hardy097"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="createMultipleBookings[34]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.655"/>
+  <testcase name="createMultipleBookings[33]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.026"/>
+  <testcase name="createMultipleBookings[27]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.027"/>
+  <testcase name="createMultipleBookings[25]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.004"/>
+  <testcase name="createMultipleBookings[17]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[5]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[43]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[51]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.019"/>
+  <testcase name="createMultipleBookings[29]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[9]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.013"/>
+  <testcase name="createMultipleBookings[47]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[35]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleBookings[31]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.011"/>
+  <testcase name="createMultipleBookings[26]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.011"/>
+  <testcase name="createMultipleBookings[32]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.011"/>
+  <testcase name="createMultipleBookings[11]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.012"/>
+  <testcase name="createMultipleBookings[7]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.012"/>
+  <testcase name="createMultipleBookings[21]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.013"/>
+  <testcase name="createMultipleBookings[0]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.016"/>
+  <testcase name="createMultipleBookings[30]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.017"/>
+  <testcase name="createMultipleBookings[18]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[63]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[55]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[52]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[10]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.006"/>
+  <testcase name="createMultipleBookings[57]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[44]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[50]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[48]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleBookings[53]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleBookings[20]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleBookings[62]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.002"/>
+  <testcase name="createMultipleBookings[61]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.002"/>
+  <testcase name="createMultipleBookings[46]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.009"/>
+  <testcase name="createMultipleBookings[54]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.009"/>
+  <testcase name="createMultipleBookings[58]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.01"/>
+  <testcase name="createMultipleBookings[16]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.011"/>
+  <testcase name="createMultipleBookings[37]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.015"/>
+  <testcase name="createMultipleBookings[15]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.016"/>
+  <testcase name="createMultipleBookings[6]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.016"/>
+  <testcase name="createMultipleBookings[41]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.018"/>
+  <testcase name="createMultipleBookings[49]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.021"/>
+  <testcase name="createMultipleBookings[14]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[59]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[56]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[24]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[40]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleBookings[39]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.002"/>
+  <testcase name="createMultipleBookings[19]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.002"/>
+  <testcase name="createMultipleBookings[42]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleBookings[22]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[28]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleBookings[45]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleBookings[60]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[13]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.001"/>
+  <testcase name="createMultipleBookings[8]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.004"/>
+  <testcase name="createMultipleBookings[2]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.005"/>
+  <testcase name="createMultipleBookings[38]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.006"/>
+  <testcase name="createMultipleBookings[12]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.008"/>
+  <testcase name="createMultipleBookings[23]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0"/>
+  <testcase name="createMultipleBookings[3]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.101"/>
+  <testcase name="createMultipleBookings[1]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.022"/>
+  <testcase name="createMultipleBookings[36]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.041"/>
+  <testcase name="createMultipleBookings[64]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.016"/>
+  <testcase name="createMultipleBookings[65]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.002"/>
+  <testcase name="createMultipleBookings[4]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.024"/>
+  <testcase name="createMultipleBookings[67]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.068"/>
+  <testcase name="createMultipleBookings[66]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.069"/>
+  <testcase name="createMultipleBookings[78]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.07"/>
+  <testcase name="createMultipleBookings[69]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.075"/>
+  <testcase name="createMultipleBookings[68]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.116"/>
+  <testcase name="createMultipleBookings[93]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.125"/>
+  <testcase name="createMultipleBookings[71]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.125"/>
+  <testcase name="createMultipleBookings[86]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.126"/>
+  <testcase name="createMultipleBookings[96]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.126"/>
+  <testcase name="createMultipleBookings[90]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.13"/>
+  <testcase name="createMultipleBookings[95]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.13"/>
+  <testcase name="createMultipleBookings[89]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.166"/>
+  <testcase name="createMultipleBookings[74]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.199"/>
+  <testcase name="createMultipleBookings[88]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.222"/>
+  <testcase name="createMultipleBookings[97]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.225"/>
+  <testcase name="createMultipleBookings[98]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.231"/>
+  <testcase name="createMultipleBookings[73]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.244"/>
+  <testcase name="createMultipleBookings[70]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.25"/>
+  <testcase name="createMultipleBookings[99]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.265"/>
+  <testcase name="createMultipleBookings[75]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.286"/>
+  <testcase name="createMultipleBookings[77]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.339"/>
+  <testcase name="createMultipleBookings[81]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.35"/>
+  <testcase name="createMultipleBookings[79]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.375"/>
+  <testcase name="createMultipleBookings[84]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.385"/>
+  <testcase name="createMultipleBookings[83]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.39"/>
+  <testcase name="createMultipleBookings[80]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.412"/>
+  <testcase name="createMultipleBookings[82]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.43"/>
+  <testcase name="createMultipleBookings[85]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.431"/>
+  <testcase name="createMultipleBookings[92]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.48"/>
+  <testcase name="createMultipleBookings[94]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.5"/>
+  <testcase name="createMultipleBookings[76]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.51"/>
+  <testcase name="createMultipleBookings[87]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.553"/>
+  <testcase name="createMultipleBookings[91]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.572"/>
+  <testcase name="createMultipleBookings[72]" classname="com.restful.booker.bookinginfo.CreateBookingDataDrivenTest" time="0.596"/>
+</testsuite>
